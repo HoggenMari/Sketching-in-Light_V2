@@ -25,6 +25,7 @@
 #import "MaterialTypography.h"
 #import "MDCFontTextStyle.h"
 #import "MDCTypography.h"
+#import "UIFont+MaterialSimpleEquality.h"
 #import "UIFont+MaterialTypography.h"
 #import "UIFontDescriptor+MaterialTypography.h"
 #import "MaterialApplication.h"
@@ -35,6 +36,9 @@
 #import "MDCNumericValueLabel.h"
 #import "MDCThumbTrack.h"
 #import "MDCThumbView.h"
+#import "MaterialTypographyScheme.h"
+#import "MDCLegacyFontScheme.h"
+#import "MDCTypographyScheme.h"
 
 FOUNDATION_EXPORT double MaterialComponentsVersionNumber;
 FOUNDATION_EXPORT const unsigned char MaterialComponentsVersionString[];

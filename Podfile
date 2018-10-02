@@ -7,7 +7,9 @@ target 'SketchLight' do
 
   # Pods for SketchLight
   pod 'MaterialComponents/Slider'
-
+  pod 'MaterialComponents/schemes/Typography'
+  pod 'SwiftIcons', '~> 2.2.0'
+  
   target 'SketchLightTests' do
     inherit! :search_paths
     # Pods for testing

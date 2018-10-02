@@ -1,39 +1,40 @@
 PODS:
-  - MaterialComponents/Ink (55.0.4):
+  - MaterialComponents/Ink (65.0.0):
     - MaterialComponents/private/Math
-  - MaterialComponents/Palettes (55.0.4)
-  - MaterialComponents/private/Application (55.0.4)
-  - MaterialComponents/private/Math (55.0.4)
-  - MaterialComponents/private/ThumbTrack (55.0.4):
+  - MaterialComponents/Palettes (65.0.0)
+  - MaterialComponents/private/Application (65.0.0)
+  - MaterialComponents/private/Math (65.0.0)
+  - MaterialComponents/private/ThumbTrack (65.0.0):
     - MaterialComponents/Ink
     - MaterialComponents/private/Math
     - MaterialComponents/ShadowElevations
     - MaterialComponents/ShadowLayer
     - MaterialComponents/Typography
     - MDFInternationalization
-  - MaterialComponents/ShadowElevations (55.0.4)
-  - MaterialComponents/ShadowLayer (55.0.4):
+  - MaterialComponents/schemes/Typography (65.0.0)
+  - MaterialComponents/ShadowElevations (65.0.0)
+  - MaterialComponents/ShadowLayer (65.0.0):
     - MaterialComponents/ShadowElevations
-  - MaterialComponents/Slider (55.0.4):
+  - MaterialComponents/Slider (65.0.0):
     - MaterialComponents/Palettes
     - MaterialComponents/private/ThumbTrack
     - MaterialComponents/ShadowElevations
-  - MaterialComponents/Typography (55.0.4):
+  - MaterialComponents/Typography (65.0.0):
     - MaterialComponents/private/Application
-  - MDFInternationalization (1.0.4)
+    - MaterialComponents/private/Math
+  - MDFInternationalization (1.1.0)
+  - SwiftIcons (2.2.0)
 
 DEPENDENCIES:
+  - MaterialComponents/schemes/Typography
   - MaterialComponents/Slider
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - MaterialComponents
-    - MDFInternationalization
+  - SwiftIcons (~> 2.2.0)
 
 SPEC CHECKSUMS:
-  MaterialComponents: 059f649876b2e1ed6a623ba689175493422cc7cd
-  MDFInternationalization: e355b0cebecf53d60233bd267084e49366c82513
+  MaterialComponents: ea21a99bd4da688f9becf8c3e9416016343cbe32
+  MDFInternationalization: b5b8626628abf026e630e5ebaeee563037712cbb
+  SwiftIcons: e7eb9bf2b475d6bdd8b37c5bdedc6d120aab0829
 
-PODFILE CHECKSUM: 8e589b4aba6daa6d914a31eb36df4bf27f5682e9
+PODFILE CHECKSUM: 097d14f8c59bbf0a34905bd16ff68d4d89337f6f
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.4.0

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		77EA50653DCF305E4918C20F /* Pods_SketchLightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614E687A8810C6923714B4A9 /* Pods_SketchLightTests.framework */; };
+		9C27F0E0214D27BB00C6B6F1 /* UIColor+SketchLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27F0DF214D27BB00C6B6F1 /* UIColor+SketchLight.swift */; };
+		9C99FD322164B97500290129 /* UIView+SketchLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C99FD312164B97500290129 /* UIView+SketchLight.swift */; };
 		9CE39695213C380000EACBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE39694213C380000EACBCC /* AppDelegate.swift */; };
 		9CE39697213C380000EACBCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE39696213C380000EACBCC /* ViewController.swift */; };
 		9CE3969A213C380000EACBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE39698213C380000EACBCC /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		9CE3969F213C380300EACBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE3969D213C380300EACBCC /* LaunchScreen.storyboard */; };
 		9CE396AA213C380400EACBCC /* SketchLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE396A9213C380400EACBCC /* SketchLightTests.swift */; };
 		9CE396B5213C380400EACBCC /* SketchLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE396B4213C380400EACBCC /* SketchLightUITests.swift */; };
+		9CE396C5213C812200EACBCC /* PlayerControlVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CE396C4213C812200EACBCC /* PlayerControlVC.xib */; };
+		9CE396C7213C8C3B00EACBCC /* OutputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE396C6213C8C3B00EACBCC /* OutputVC.swift */; };
+		9CE396C9213CAC3E00EACBCC /* ControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE396C8213CAC3E00EACBCC /* ControllerVC.swift */; };
 		A5066A814C3C56825D36122C /* Pods_SketchLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D20B90E4001C967AAF06891 /* Pods_SketchLight.framework */; };
 		B85E5CAB74B2D77C9D92CBF3 /* Pods_SketchLightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1962123DCFC595E6B4068F /* Pods_SketchLightUITests.framework */; };
 /* End PBXBuildFile section */
@@ -42,6 +47,8 @@
 		3FE226F06355910144C3A017 /* Pods-SketchLightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SketchLightUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SketchLightUITests/Pods-SketchLightUITests.release.xcconfig"; sourceTree = "<group>"; };
 		614E687A8810C6923714B4A9 /* Pods_SketchLightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SketchLightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CEAFB773D94148CBB48737F /* Pods-SketchLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SketchLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SketchLight/Pods-SketchLight.debug.xcconfig"; sourceTree = "<group>"; };
+		9C27F0DF214D27BB00C6B6F1 /* UIColor+SketchLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+SketchLight.swift"; sourceTree = "<group>"; };
+		9C99FD312164B97500290129 /* UIView+SketchLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SketchLight.swift"; sourceTree = "<group>"; };
 		9CE39691213C380000EACBCC /* SketchLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SketchLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE39694213C380000EACBCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CE39696213C380000EACBCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +62,9 @@
 		9CE396B0213C380400EACBCC /* SketchLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SketchLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE396B4213C380400EACBCC /* SketchLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchLightUITests.swift; sourceTree = "<group>"; };
 		9CE396B6213C380400EACBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE396C4213C812200EACBCC /* PlayerControlVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerControlVC.xib; sourceTree = "<group>"; };
+		9CE396C6213C8C3B00EACBCC /* OutputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputVC.swift; sourceTree = "<group>"; };
+		9CE396C8213CAC3E00EACBCC /* ControllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerVC.swift; sourceTree = "<group>"; };
 		BC10EFF9AF0A770B323FF0B7 /* Pods-SketchLightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SketchLightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SketchLightTests/Pods-SketchLightTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E91A75146907F32011F9D83B /* Pods-SketchLightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SketchLightUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SketchLightUITests/Pods-SketchLightUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA190431D6D548970723389E /* Pods-SketchLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SketchLight.release.xcconfig"; path = "Pods/Target Support Files/Pods-SketchLight/Pods-SketchLight.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,8 +138,13 @@
 			isa = PBXGroup;
 			children = (
 				9CE39694213C380000EACBCC /* AppDelegate.swift */,
+				9C27F0DF214D27BB00C6B6F1 /* UIColor+SketchLight.swift */,
+				9C99FD312164B97500290129 /* UIView+SketchLight.swift */,
 				9CE39696213C380000EACBCC /* ViewController.swift */,
 				9CE39698213C380000EACBCC /* Main.storyboard */,
+				9CE396C8213CAC3E00EACBCC /* ControllerVC.swift */,
+				9CE396C6213C8C3B00EACBCC /* OutputVC.swift */,
+				9CE396C4213C812200EACBCC /* PlayerControlVC.xib */,
 				9CE3969B213C380300EACBCC /* Assets.xcassets */,
 				9CE3969D213C380300EACBCC /* LaunchScreen.storyboard */,
 				9CE396A0213C380300EACBCC /* Info.plist */,
@@ -177,6 +192,7 @@
 				9CE3968E213C380000EACBCC /* Frameworks */,
 				9CE3968F213C380000EACBCC /* Resources */,
 				B6A5644510EDF7B23062230A /* [CP] Embed Pods Frameworks */,
+				D94BF3435A8009E7BD616A58 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +211,8 @@
 				9CE396A1213C380400EACBCC /* Sources */,
 				9CE396A2213C380400EACBCC /* Frameworks */,
 				9CE396A3213C380400EACBCC /* Resources */,
+				169570DFB3FAAC713E8E5AB4 /* [CP] Embed Pods Frameworks */,
+				C957B52CBB4AB08DAF228D63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +232,8 @@
 				9CE396AC213C380400EACBCC /* Sources */,
 				9CE396AD213C380400EACBCC /* Frameworks */,
 				9CE396AE213C380400EACBCC /* Resources */,
+				58C9A6E3F0D4ACB0F6F1D975 /* [CP] Embed Pods Frameworks */,
+				F10B965DCC9998B5F9586C1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,13 +257,16 @@
 				TargetAttributes = {
 					9CE39690213C380000EACBCC = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					9CE396A4213C380400EACBCC = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 9CE39690213C380000EACBCC;
 					};
 					9CE396AF213C380400EACBCC = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 9CE39690213C380000EACBCC;
 					};
 				};
@@ -276,6 +299,7 @@
 				9CE3969F213C380300EACBCC /* LaunchScreen.storyboard in Resources */,
 				9CE3969C213C380300EACBCC /* Assets.xcassets in Resources */,
 				9CE3969A213C380000EACBCC /* Main.storyboard in Resources */,
+				9CE396C5213C812200EACBCC /* PlayerControlVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +320,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		169570DFB3FAAC713E8E5AB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SketchLightTests/Pods-SketchLightTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58C9A6E3F0D4ACB0F6F1D975 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SketchLightUITests/Pods-SketchLightUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6962F54DEF748FFC74E70577 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,15 +377,32 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-SketchLight/Pods-SketchLight-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SketchLight/Pods-SketchLight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C957B52CBB4AB08DAF228D63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SketchLightTests/Pods-SketchLightTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D7285D2960E96E389E93638E /* [CP] Check Pods Manifest.lock */ = {
@@ -352,6 +423,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D94BF3435A8009E7BD616A58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SketchLight/Pods-SketchLight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F10787CB9ED9EA12373B166C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,6 +456,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F10B965DCC9998B5F9586C1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SketchLightUITests/Pods-SketchLightUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -378,7 +479,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CE39697213C380000EACBCC /* ViewController.swift in Sources */,
+				9CE396C7213C8C3B00EACBCC /* OutputVC.swift in Sources */,
 				9CE39695213C380000EACBCC /* AppDelegate.swift in Sources */,
+				9C99FD322164B97500290129 /* UIView+SketchLight.swift in Sources */,
+				9CE396C9213CAC3E00EACBCC /* ControllerVC.swift in Sources */,
+				9C27F0E0214D27BB00C6B6F1 /* UIColor+SketchLight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,10 +663,11 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@rpath/MDFInternationalization.framework/MDFInternationalization",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoggenmari.SketchLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -577,10 +683,11 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@rpath/MDFInternationalization.framework/MDFInternationalization",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoggenmari.SketchLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -601,7 +708,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoggenmari.SketchLightTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SketchLight.app/SketchLight";
 			};
@@ -623,7 +730,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoggenmari.SketchLightTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SketchLight.app/SketchLight";
 			};
@@ -644,7 +751,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoggenmari.SketchLightUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SketchLight;
 			};
@@ -665,7 +772,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoggenmari.SketchLightUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SketchLight;
 			};
