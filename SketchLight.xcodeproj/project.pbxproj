@@ -8,8 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		77EA50653DCF305E4918C20F /* Pods_SketchLightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614E687A8810C6923714B4A9 /* Pods_SketchLightTests.framework */; };
+		9C26188C21789D37007C0B01 /* PlayableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C26188B21789D37007C0B01 /* PlayableItem.swift */; };
+		9C26188E21789DA5007C0B01 /* VideoPlayableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C26188D21789DA5007C0B01 /* VideoPlayableItem.swift */; };
+		9C2618912178BD09007C0B01 /* index2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C2618902178BD09007C0B01 /* index2.mp4 */; };
+		9C261893217937B9007C0B01 /* String+SketchLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C261892217937B9007C0B01 /* String+SketchLight.swift */; };
 		9C27F0E0214D27BB00C6B6F1 /* UIColor+SketchLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27F0DF214D27BB00C6B6F1 /* UIColor+SketchLight.swift */; };
+		9C29EB5B217146E50044F344 /* SketchPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29EB5A217146E50044F344 /* SketchPlayer.swift */; };
+		9C29EB5D217149E40044F344 /* PlayerServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29EB5C217149E40044F344 /* PlayerServices.swift */; };
+		9C29EB5F217150320044F344 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29EB5E217150320044F344 /* VideoPlayer.swift */; };
+		9C29EB64217155930044F344 /* index.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C29EB63217155930044F344 /* index.mp4 */; };
+		9C31D40F216BFDF800B5654D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31D40E216BFDF800B5654D /* Player.swift */; };
 		9C99FD322164B97500290129 /* UIView+SketchLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C99FD312164B97500290129 /* UIView+SketchLight.swift */; };
+		9C99FD372164D05900290129 /* GlobalColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C99FD362164D05900290129 /* GlobalColorVC.swift */; };
 		9CE39695213C380000EACBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE39694213C380000EACBCC /* AppDelegate.swift */; };
 		9CE39697213C380000EACBCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE39696213C380000EACBCC /* ViewController.swift */; };
 		9CE3969A213C380000EACBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE39698213C380000EACBCC /* Main.storyboard */; };
@@ -47,8 +57,18 @@
 		3FE226F06355910144C3A017 /* Pods-SketchLightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SketchLightUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SketchLightUITests/Pods-SketchLightUITests.release.xcconfig"; sourceTree = "<group>"; };
 		614E687A8810C6923714B4A9 /* Pods_SketchLightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SketchLightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CEAFB773D94148CBB48737F /* Pods-SketchLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SketchLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SketchLight/Pods-SketchLight.debug.xcconfig"; sourceTree = "<group>"; };
+		9C26188B21789D37007C0B01 /* PlayableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayableItem.swift; sourceTree = "<group>"; };
+		9C26188D21789DA5007C0B01 /* VideoPlayableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayableItem.swift; sourceTree = "<group>"; };
+		9C2618902178BD09007C0B01 /* index2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = index2.mp4; sourceTree = "<group>"; };
+		9C261892217937B9007C0B01 /* String+SketchLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+SketchLight.swift"; sourceTree = "<group>"; };
 		9C27F0DF214D27BB00C6B6F1 /* UIColor+SketchLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+SketchLight.swift"; sourceTree = "<group>"; };
+		9C29EB5A217146E50044F344 /* SketchPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchPlayer.swift; sourceTree = "<group>"; };
+		9C29EB5C217149E40044F344 /* PlayerServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerServices.swift; sourceTree = "<group>"; };
+		9C29EB5E217150320044F344 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		9C29EB63217155930044F344 /* index.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = index.mp4; sourceTree = "<group>"; };
+		9C31D40E216BFDF800B5654D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		9C99FD312164B97500290129 /* UIView+SketchLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SketchLight.swift"; sourceTree = "<group>"; };
+		9C99FD362164D05900290129 /* GlobalColorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalColorVC.swift; sourceTree = "<group>"; };
 		9CE39691213C380000EACBCC /* SketchLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SketchLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE39694213C380000EACBCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CE39696213C380000EACBCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +132,36 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9C99FD332164CBD400290129 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C31D40E216BFDF800B5654D /* Player.swift */,
+				9C26188B21789D37007C0B01 /* PlayableItem.swift */,
+				9C26188D21789DA5007C0B01 /* VideoPlayableItem.swift */,
+				9C29EB5C217149E40044F344 /* PlayerServices.swift */,
+				9C29EB5A217146E50044F344 /* SketchPlayer.swift */,
+				9C29EB5E217150320044F344 /* VideoPlayer.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		9C99FD352164CBEF00290129 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C27F0DF214D27BB00C6B6F1 /* UIColor+SketchLight.swift */,
+				9C99FD312164B97500290129 /* UIView+SketchLight.swift */,
+				9CE39696213C380000EACBCC /* ViewController.swift */,
+				9CE39698213C380000EACBCC /* Main.storyboard */,
+				9CE396C8213CAC3E00EACBCC /* ControllerVC.swift */,
+				9C99FD362164D05900290129 /* GlobalColorVC.swift */,
+				9CE396C6213C8C3B00EACBCC /* OutputVC.swift */,
+				9CE396C4213C812200EACBCC /* PlayerControlVC.xib */,
+				9CE3969D213C380300EACBCC /* LaunchScreen.storyboard */,
+				9C261892217937B9007C0B01 /* String+SketchLight.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 		9CE39688213C380000EACBCC = {
 			isa = PBXGroup;
 			children = (
@@ -137,16 +187,12 @@
 		9CE39693213C380000EACBCC /* SketchLight */ = {
 			isa = PBXGroup;
 			children = (
+				9C2618902178BD09007C0B01 /* index2.mp4 */,
+				9C29EB63217155930044F344 /* index.mp4 */,
+				9C99FD352164CBEF00290129 /* View Model */,
+				9C99FD332164CBD400290129 /* Data Model */,
 				9CE39694213C380000EACBCC /* AppDelegate.swift */,
-				9C27F0DF214D27BB00C6B6F1 /* UIColor+SketchLight.swift */,
-				9C99FD312164B97500290129 /* UIView+SketchLight.swift */,
-				9CE39696213C380000EACBCC /* ViewController.swift */,
-				9CE39698213C380000EACBCC /* Main.storyboard */,
-				9CE396C8213CAC3E00EACBCC /* ControllerVC.swift */,
-				9CE396C6213C8C3B00EACBCC /* OutputVC.swift */,
-				9CE396C4213C812200EACBCC /* PlayerControlVC.xib */,
 				9CE3969B213C380300EACBCC /* Assets.xcassets */,
-				9CE3969D213C380300EACBCC /* LaunchScreen.storyboard */,
 				9CE396A0213C380300EACBCC /* Info.plist */,
 			);
 			path = SketchLight;
@@ -297,9 +343,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CE3969F213C380300EACBCC /* LaunchScreen.storyboard in Resources */,
+				9C2618912178BD09007C0B01 /* index2.mp4 in Resources */,
 				9CE3969C213C380300EACBCC /* Assets.xcassets in Resources */,
 				9CE3969A213C380000EACBCC /* Main.storyboard in Resources */,
 				9CE396C5213C812200EACBCC /* PlayerControlVC.xib in Resources */,
+				9C29EB64217155930044F344 /* index.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,10 +528,18 @@
 			files = (
 				9CE39697213C380000EACBCC /* ViewController.swift in Sources */,
 				9CE396C7213C8C3B00EACBCC /* OutputVC.swift in Sources */,
+				9C26188C21789D37007C0B01 /* PlayableItem.swift in Sources */,
 				9CE39695213C380000EACBCC /* AppDelegate.swift in Sources */,
+				9C26188E21789DA5007C0B01 /* VideoPlayableItem.swift in Sources */,
 				9C99FD322164B97500290129 /* UIView+SketchLight.swift in Sources */,
+				9C261893217937B9007C0B01 /* String+SketchLight.swift in Sources */,
+				9C31D40F216BFDF800B5654D /* Player.swift in Sources */,
 				9CE396C9213CAC3E00EACBCC /* ControllerVC.swift in Sources */,
+				9C29EB5D217149E40044F344 /* PlayerServices.swift in Sources */,
 				9C27F0E0214D27BB00C6B6F1 /* UIColor+SketchLight.swift in Sources */,
+				9C29EB5B217146E50044F344 /* SketchPlayer.swift in Sources */,
+				9C29EB5F217150320044F344 /* VideoPlayer.swift in Sources */,
+				9C99FD372164D05900290129 /* GlobalColorVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,9 +14,9 @@
             <connections>
                 <outlet property="controlBar" destination="NS9-N8-r5w" id="FBB-iV-PZb"/>
                 <outlet property="currentTimeLabel" destination="Ruh-HM-Mb4" id="ehu-qo-Srl"/>
+                <outlet property="globalControl" destination="1xi-3h-jjF" id="AEb-3F-uLK"/>
                 <outlet property="playerStack" destination="BT0-Gq-ryp" id="3wM-WA-fs2"/>
                 <outlet property="progressBar" destination="HEI-vM-11D" id="4CE-Yy-bsX"/>
-                <outlet property="sliderStack" destination="Rhp-p2-V7d" id="uiD-1C-Ivp"/>
                 <outlet property="titleLabel" destination="AMm-1L-hs9" id="217-yg-vGn"/>
                 <outlet property="totalTimeLabel" destination="K8B-Me-mrz" id="oQa-yt-MAd"/>
                 <outlet property="view" destination="iN0-l3-epB" id="4Vr-fK-JfZ"/>
@@ -30,10 +30,9 @@
                 <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Xc2-qM-lF2">
                     <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                     <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Rhp-p2-V7d">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1xi-3h-jjF">
                             <rect key="frame" x="0.0" y="0.0" width="192" height="1004"/>
-                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        </stackView>
+                        </view>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BT0-Gq-ryp">
                             <rect key="frame" x="200" y="0.0" width="568" height="1004"/>
                             <subviews>
@@ -101,7 +100,7 @@
                         </stackView>
                     </subviews>
                     <constraints>
-                        <constraint firstItem="Rhp-p2-V7d" firstAttribute="width" secondItem="Xc2-qM-lF2" secondAttribute="width" multiplier="1/4" id="rUD-CI-6FP"/>
+                        <constraint firstItem="1xi-3h-jjF" firstAttribute="width" secondItem="Xc2-qM-lF2" secondAttribute="width" multiplier="1/4" id="j3m-fs-vF8"/>
                     </constraints>
                 </stackView>
             </subviews>
@@ -112,7 +111,7 @@
                 <constraint firstItem="Xc2-qM-lF2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="u4y-Nu-mpr"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <point key="canvasLocation" x="424" y="388"/>
+            <point key="canvasLocation" x="423.4375" y="387.890625"/>
         </view>
     </objects>
     <resources>
