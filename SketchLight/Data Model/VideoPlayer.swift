@@ -102,17 +102,19 @@ class VideoPlayer: NSObject, Player {
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath == "currentItem.status" {
             if videoPlayer?.currentItem?.status == .readyToPlay {
-                if let videoItem = videoPlayer?.currentItem {
-                    item = videoItem
-                    let length = Float(CMTimeGetSeconds(item.duration))
+                guard let videoItem = videoPlayer?.currentItem else {
+                    return
+                }
+                let length = Float(CMTimeGetSeconds(videoItem.duration))
+                if !length.isNaN {
                     currentSketchLength = Int(length) * Int(millisPerSecond)
                     let videoComposition = videoPlayer?.currentItem?.videoComposition
                     videoPlayer?.currentItem?.videoComposition = nil
                     videoPlayer?.currentItem?.videoComposition = videoComposition
                     videoPlayer?.currentItem?.add(videoOutput)
                     playerDelegate?.player(self, didChangeWith: PlayerEvent.trackInformationChanged)
-                    //displayLink.add(to: RunLoop.main, forMode: RunLoop.Mode.common)
                 }
+                
             }
         } else if keyPath == "playerItemDidPlayToEndTime" {
             seek(to: 0)
@@ -130,6 +132,10 @@ class VideoPlayer: NSObject, Player {
         } else {
             videoPlayer?.replaceCurrentItem(with: videoItem.avPlayerItem)
         }
+        unpause()
+        currentSketchName = videoItem.itemName ?? ""
+        playerDelegate?.player(self, didChangeWith: PlayerEvent.trackInformationChanged)
+        
     }
 
     func pause() {

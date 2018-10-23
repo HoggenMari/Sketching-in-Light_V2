@@ -19,25 +19,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tUm-Ed-FWz">
-                                <rect key="frame" x="0.0" y="774" width="683" height="250"/>
+                                <rect key="frame" x="0.0" y="864" width="683" height="160"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="M5g-xe-ypZ"/>
+                                    <constraint firstAttribute="height" constant="160" id="M5g-xe-ypZ"/>
                                 </constraints>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y7O-pK-fu0">
-                                <rect key="frame" x="683" y="774" width="683" height="250"/>
+                                <rect key="frame" x="683" y="864" width="683" height="160"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="bvG-x3-1Iy"/>
+                                    <constraint firstAttribute="height" constant="160" id="bvG-x3-1Iy"/>
                                 </constraints>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KcY-We-iXj">
-                                <rect key="frame" x="1116" y="0.0" width="250" height="774"/>
+                                <rect key="frame" x="1116" y="0.0" width="250" height="864"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="5ZP-DG-B04"/>
                                 </constraints>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="14R-iO-Smh">
-                                <rect key="frame" x="0.0" y="0.0" width="1116" height="774"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1116" height="864"/>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -62,6 +62,7 @@
                     <connections>
                         <outlet property="controllerContainerView" destination="tUm-Ed-FWz" id="YxM-b0-GMl"/>
                         <outlet property="outputContainerView" destination="14R-iO-Smh" id="KnI-ys-TXi"/>
+                        <outlet property="toolsContainerView" destination="y7O-pK-fu0" id="Gly-3R-yjd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

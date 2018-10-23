@@ -80,6 +80,7 @@ class OutputVC: UIViewController, ImageBufferDelegate, GlobalColorDelegate {
         case .none:
             break
         }
+        newImageBuffer()
     }
 
 

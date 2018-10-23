@@ -51,7 +51,6 @@ class ControllerVC: UIViewController, MDCSliderDelegate, PlayerDelegate {
         let inset = UIEdgeInsets(top: defaultPadding, left: defaultPadding, bottom: defaultPadding, right: defaultPadding)
         self.additionalSafeAreaInsets = inset
 
-        titleLabel.text = "Sehr langer text"
         titleLabel.font = MDCTypography.titleFont()
 
         let globalColorVC = GlobalColorVC()

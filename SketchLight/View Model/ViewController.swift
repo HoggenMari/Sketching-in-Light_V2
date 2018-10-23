@@ -9,14 +9,17 @@
 import UIKit
 import MaterialComponents.MaterialSlider
 import AVFoundation
+import Photos
 
 class ViewController: UIViewController {
 
     @IBOutlet var controllerContainerView: UIView!
     @IBOutlet var outputContainerView: UIView!
-
+    @IBOutlet var toolsContainerView: UIView!
+    
     let controllerVC = ControllerVC()
     let outputVC = OutputVC()
+    let galleryVC: VideoGalleryVC = VideoGalleryVC()
 
     var gameTimer: Timer!
 
@@ -31,25 +34,22 @@ class ViewController: UIViewController {
         outputContainerView.addSubview(outputVC.view)
         outputVC.didMove(toParent: self)
         
-        let urlPathString = Bundle.main.path(forResource: "index", ofType: "mp4")
+        addChild(galleryVC)
+        toolsContainerView.addSubview(galleryVC.view)
+        galleryVC.didMove(toParent: self)
         
-        if let fileURL = urlPathString {
-            let item = AVPlayerItem(url: URL(fileURLWithPath: fileURL))
-            let videoItem = VideoPlayableItem(item: item)
-            PlayerServices.sharedInstance.currentPlayer().play(videoItem)
-        }
 
     }
 
     override func viewWillLayoutSubviews() {
         controllerVC.view.frame = CGRect(x: 0, y: 0, width: controllerContainerView.bounds.width, height: controllerContainerView.bounds.height)
         outputVC.view.frame = CGRect(x: 0, y: 0, width: outputContainerView.bounds.width, height: outputContainerView.bounds.height)
+        galleryVC.view.frame = CGRect(x: 0, y: 0, width: toolsContainerView.bounds.width, height: toolsContainerView.bounds.height)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
 
 }
 

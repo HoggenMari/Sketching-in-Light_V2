@@ -1,6 +1,0 @@
-framework module Pods_SketchLightTests {
-  umbrella header "Pods-SketchLightTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
